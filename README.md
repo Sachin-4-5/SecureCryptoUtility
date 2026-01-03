@@ -1,8 +1,8 @@
-## SecureCryptoToolkit
+## SecureCryptoUtility
 
 
 ### 📘 Overview  
-SecureCryptoToolkit is a modern, console-based cryptography utility application developed using .NET 8 (LTS).
+SecureCryptoUtility is a modern, console-based cryptography utility application developed using .NET 8 (LTS).
 The application demonstrates industry-standard encryption, decryption, and hashing techniques used in real-world enterprise systems.
 It is designed to help developers understand modern cryptographic standards such as AES, RSA, PBKDF2, Hybrid Encryption, and Secure File Encryption, without requiring prior knowledge of ASP.NET Core MVC or Web API.
 
@@ -40,9 +40,8 @@ It is designed to help developers understand modern cryptographic standards such
     🔹 Use case: Secure key exchange, Digital security mechanisms, Hybrid encryption systems
 
 4️⃣ Hybrid Encryption (AES + RSA)
-    🔹 Combines the strengths of AES and RSA:
-          1. Data is encrypted using AES (fast)
-          2. AES key is encrypted using RSA (secure)
+    🔹 Combines the strengths of AES and RSA: Data is encrypted using AES (fast) and AES key is encrypted using RSA (secure)
+    🔹 Problem with AES alone is that AES is fast, But key sharing is insecure. Also, RSA is secure But very slow and Cannot encrypt large data (files, JSON, XML).
     🔹 Secure file transfer systems, HTTPS/TLS, Large-scale enterprise communication.
 
 5️⃣ Secure File Encryption
@@ -74,8 +73,8 @@ It is designed to help developers understand modern cryptographic standards such
 
 
 ### 📌 Project Configuration
-1️⃣ Project Name: SecureCryptoToolkit <br />
-2️⃣ Solution Name: SecureCryptoToolkit.sln <br />
+1️⃣ Project Name: SecureCryptoUtility <br />
+2️⃣ Solution Name: SecureCryptoUtility.sln <br />
 3️⃣ Framework: .NET 8 (LTS) <br />
 4️⃣ Application Type: Console Application <br />
 5️⃣ Language: C# <br />
@@ -89,34 +88,30 @@ It is designed to help developers understand modern cryptographic standards such
 
 ### 🎓 Project structure
 ```
-SecureCryptoToolkit
+SecureCryptoUtility
 │
 ├── bin/
 ├── obj/
+├── Interfaces/
+│   ├── IAesEncryptionService.cs
+│   ├── IRsaEncryptionService.cs
+│   ├── IHybridEncryptionService.cs
+│   ├── IPasswordHashService.cs
+│   └── IFileEncryptionService.cs
 │
-├── Core/
-│   ├── Interfaces/
-│   │   ├── IPasswordHasher.cs
-│   │   ├── IEncryptionService.cs
-│   │
-│   ├── Services/
-│   │   ├── PasswordHasher.cs
-│   │   ├── AesEncryptionService.cs
-│   │   ├── RsaEncryptionService.cs
-│   │   └── HybridEncryptionService.cs
+├── Models/
+│   ├── HybridEncryptedResult.cs
+│   └── PasswordHashResult.cs
 │
-├── Infrastructure/
-│   ├── KeyManagement/
-│   │   └── KeyProvider.cs
-│
-├── FileSecurity/
+├── Services/
+│   ├── AesEncryptionService.cs
+│   ├── RsaEncryptionService.cs
+│   ├── HybridEncryptionService.cs
+│   ├── PasswordHashService.cs
 │   └── FileEncryptionService.cs
 │
-├── ConsoleUI/
-│   ├── Program.cs
-│   └── Menu.cs
-│
-└── README.md
+├── Program.cs
+└── appsettings.json
 
 
 ```
