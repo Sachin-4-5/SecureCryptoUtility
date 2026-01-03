@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "lyBJFNJOwNOWfeS8ztRxtPZMfjkEsWX9NW+vDzlwJCGXi4W35PYX5hRRpWMk+L9mmWanPONkiSrGTbgQBofZ9w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pr667\\OneDrive\\Desktop\\Projects\\2. Console Apps (.NET Core)\\SecureCryptoToolKit\\SecureCryptoToolKit\\SecureCryptoUtility.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pr667\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.1\\microsoft.extensions.configuration.10.0.1.nupkg.sha512",
+    "C:\\Users\\pr667\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.1\\microsoft.extensions.configuration.abstractions.10.0.1.nupkg.sha512",
+    "C:\\Users\\pr667\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\10.0.1\\microsoft.extensions.configuration.fileextensions.10.0.1.nupkg.sha512",
+    "C:\\Users\\pr667\\.nuget\\packages\\microsoft.extensions.configuration.json\\10.0.1\\microsoft.extensions.configuration.json.10.0.1.nupkg.sha512",
+    "C:\\Users\\pr667\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\10.0.1\\microsoft.extensions.fileproviders.abstractions.10.0.1.nupkg.sha512",
+    "C:\\Users\\pr667\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\10.0.1\\microsoft.extensions.fileproviders.physical.10.0.1.nupkg.sha512",
+    "C:\\Users\\pr667\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\10.0.1\\microsoft.extensions.filesystemglobbing.10.0.1.nupkg.sha512",
+    "C:\\Users\\pr667\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.1\\microsoft.extensions.primitives.10.0.1.nupkg.sha512",
+    "C:\\Users\\pr667\\.nuget\\packages\\system.io.pipelines\\10.0.1\\system.io.pipelines.10.0.1.nupkg.sha512",
+    "C:\\Users\\pr667\\.nuget\\packages\\system.text.encodings.web\\10.0.1\\system.text.encodings.web.10.0.1.nupkg.sha512",
+    "C:\\Users\\pr667\\.nuget\\packages\\system.text.json\\10.0.1\\system.text.json.10.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
